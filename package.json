@@ -1,0 +1,45 @@
+{
+  "name": "quantum-go",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve --skip-plugins progress",
+    "start": "node serve.js"
+  },
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.19",
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-plugin-eslint": "~4.5.19",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
